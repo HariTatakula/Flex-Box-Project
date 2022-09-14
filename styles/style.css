@@ -9,12 +9,26 @@ body {
     display: block;
     font-size: 18px;
   }
+
+  a {
+    font-size: larger;
+    text-decoration: none;
+    background-color: white;
+    color: black;    
+    box-shadow:5px 5px 5px 5px #423b3b;    
+    border-radius: 10px;
+    }
+
+   a:hover{
+    background-color: rgb(183, 245, 14);
+   }
   
   .container {
     height: 150px;
     width: 100%;
     display: flex;
     background-color: whitesmoke;
+    
   }
   
   .box {

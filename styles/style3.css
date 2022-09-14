@@ -13,6 +13,18 @@ body {
     text-align: center;
     font-size: 16px;
   }
+  a {
+    font-size: larger;
+    text-decoration: none;
+    background-color: white;
+    color: black;    
+    box-shadow:5px 5px 5px 5px #423b3b;    
+    border-radius: 10px;
+    }
+
+   a:hover{
+    background-color: rgb(183, 245, 14);
+   }
   
   .grow,
   .shrink {
