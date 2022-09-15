@@ -1,0 +1,48 @@
+body {
+    border: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+  }
+
+  a {
+    font-size: larger;
+    text-decoration: none;
+    background-color: white;
+    color: black;    
+    box-shadow:5px 5px 5px 5px #423b3b;    
+    border-radius: 10px;
+    }
+
+   a:hover{
+    background-color: rgb(183, 245, 14);
+   }
+
+.grid {
+    border: 2px blue solid;
+    height: 500px;
+    width: 500px;
+    display: grid;
+      grid-template-columns: 25% 25% 2fr 1fr;
+      grid-template-rows: 200px 200px;
+      row-gap: 10px;
+      column-gap: 15px;
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid; 
+  }
+  .a {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
