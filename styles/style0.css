@@ -28,9 +28,7 @@ body {
     text-shadow: 5px 5px 5px black;
   }
 
-  .header>a{
-    text-decoration: none;
-  }
+  
 
   .container {
     height: 50px;
@@ -42,6 +40,8 @@ body {
 
   .container>h2{
     font-size: 1rem;
+    border-spacing: 10px;
+    
   }
 
   a {
@@ -49,7 +49,7 @@ body {
     text-decoration: none;
     color: blue;    
     box-shadow:5px 5px 5px 5px #423b3b;    
-    border-radius: 10px;
+    border-radius: 5px;
     }
 
    a:hover{
